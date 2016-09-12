@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<?php
+add_theme_support('automatic-feed-links');
+?>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styles.css" type="text/css" />
 <!--[if lt IE 9]>
